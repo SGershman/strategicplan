@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Statement](
+	[Statement_ID] [int] IDENTITY(1,1) PRIMARY KEY,
+	[Statement_Name_Automated] [varchar](max) NULL,
+	[Statement_Description] [varchar](max) NULL,
+	[Statement_Type_ID] [int] NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
